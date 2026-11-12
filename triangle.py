@@ -45,7 +45,7 @@ class Triangle:
         if not self.is_valid():
             return None
 
-        if self.a == self.c:
+        if self.a:
             return TriangleType.EQUILATERAL
         elif self.a == self.b or self.b == self.c or self.a == self.c:
             return TriangleType.ISOSCELES
