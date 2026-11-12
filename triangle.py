@@ -67,7 +67,6 @@ if __name__ == '__main__':
         a = float(input("Enter side A: "))
         b = float(input("Enter side B: "))
         c = float(input("Enter side C: "))
-        
         t = Triangle(a, b, c)
         if t.is_valid():
             print(f"Triangle Type: {t.get_type().value}")
@@ -76,3 +75,4 @@ if __name__ == '__main__':
             print("Invalid triangle parameters.")
     except ValueError:
         print("Invalid input! Please enter numeric values!")
+# test fix
